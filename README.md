@@ -1,6 +1,6 @@
 # hyperthreading
 
-Playing with multithreading in x86 assembly (linux)
+Playing with multithreading in x86 assembly (debian)
 
 Build steps [unfinished]:
 - Make sure you're building and running this on an x86 CPU. You can confirm via `uname -m` or `dpkg --print-architecture`.
