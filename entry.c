@@ -4,14 +4,11 @@
 
 extern int asm_init(void);
 
-void welcome(void) {
-	printk("Welcome to my driver!\n");
-}
-
 static int __init smp_driver_init(void)
 {
-    welcome();
-	return asm_init();
+	printk("Welcome to my driver!\n");
+	asm_init();
+	return 0;
 }
 
 static void __exit smp_driver_exit(void)

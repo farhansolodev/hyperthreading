@@ -1,5 +1,8 @@
 [bits 64]
-global asm_init
-asm_init:
-    xor rax, rax
-    ret
+
+            global      asm_init
+
+            section     .text
+
+asm_init:   xor         rax, rax
+            ret
