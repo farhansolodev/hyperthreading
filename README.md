@@ -2,7 +2,7 @@
 
 ### Playing with multithreading in x86 assembly (Intel + debian)
 
-**Note: This is an unfinished project. Buildign and running will currently fail.**
+**Note: This is an unfinished project. Building and running will currently not have the expected behaviour.**
 
 While modern Intel CPU packages will allow ring 3 code to directly issue interrupts to it's cores in order to run multithreaded code, Linux will make it impossible, forcing userland programs to instead achieve this via syscalls. Therefore, in order to to freely play around with this, you either need to write your own kernel, or write a Linux kernel module. The latter is what I am attempting here.
 
